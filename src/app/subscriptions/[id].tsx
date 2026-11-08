@@ -7,7 +7,7 @@ export default function SettingsDetail() {
   return (
     <View>
       <Text>Subscription detail</Text>
-      <Link href={"/"}>Go back</Link>
+      <Link href="/(tabs)/index">Go back</Link>
     </View>
   );
 }
