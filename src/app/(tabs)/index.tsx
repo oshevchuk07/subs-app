@@ -9,28 +9,29 @@ const SafeAreaView = styled(RNSafeAreaView);
 export default function App() {
   return (
     <SafeAreaView className="flex-1 bg-background p-5">
-      <Text className="text-xl font-bold text-success">Welcome!</Text>
+      <Text className="text-7xl font-bold text-primary">Home</Text>
+
       <Link
         href="/onboarding"
-        className="mt-4 rounded bg-primary p-4 text-white"
+        className="mt-4 font-sans-bold rounded bg-primary p-4 text-white"
       >
         Go to Onboarding
       </Link>
       <Link
         href="/(auth)/sign-in"
-        className="mt-4 rounded bg-primary p-4 text-white"
+        className="mt-4 font-sans-bold rounded bg-primary p-4 text-white"
       >
         Go to Sign in
       </Link>
       <Link
         href="/(auth)/sign-up"
-        className="mt-4 rounded bg-primary p-4 text-white"
+        className="mt-4 font-sans-bold rounded bg-primary p-4 text-white"
       >
         Go to Sign up
       </Link>
       <Link
         href="/(auth)/sign-up"
-        className="mt-4 rounded bg-primary p-4 text-white"
+        className="mt-4 font-sans-bold rounded bg-primary p-4 text-white"
       >
         Subscriptions
       </Link>
@@ -39,7 +40,7 @@ export default function App() {
           pathname: "/subscriptions/[id]",
           params: { id: "claude" },
         }}
-        className="mt-4 rounded bg-primary p-4 text-white"
+        className="mt-4 font-sans-bold rounded bg-primary p-4 text-white"
       >
         Go Claude Subscriptions
       </Link>
